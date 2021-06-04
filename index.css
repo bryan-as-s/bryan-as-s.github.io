@@ -1,0 +1,59 @@
+*{
+font-family:Shadows Into Light;
+background-color:#85480D;
+color:#fff ;
+font-size: 20px;
+} 
+p {
+	background: none;
+}
+input {
+	background: #fff;
+	margin: 5px;
+	color: blue;
+	transition: background 1s;
+}
+input:focus {
+	background: #D4D4D4;
+	color: black;
+}
+table {
+	border-collapse: separate;
+	border:rgb(156, 244, 169)2px solid
+}
+td{
+	background: #bbb;
+	color: black;
+}
+#person{
+    background: #fff;
+    color: black;
+}
+a {
+	text-decoration-line: none;
+}
+th {
+	background: #48e;
+	color: #000;
+}
+.div-nat {
+    width: 350px;
+	height: 200px;
+    background: lightblue;
+    position: relative;
+    overflow: hidden;
+
+}
+#ntc {
+	width: 350px;
+	height: 200px;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	border: 1px solid black;
+    }
+.div-nat:hover > #ntc {
+	position: relative;
+	top: 0;
+	left: 0;
+}
